@@ -41,7 +41,8 @@ let server = null;
 
 const wickedOptions = {
     userAgentName: 'auth-passport',
-    userAgentVersion: utils.getVersion()
+    userAgentVersion: utils.getVersion(),
+    doNotPollConfigHash: true
 };
 
 async.series({
